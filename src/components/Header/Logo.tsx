@@ -3,7 +3,7 @@ import logoLight from '@/assets/dqelv-logo-light.png';
 
 const Logo = () => {
   return (
-    <div className="h-[56px] w-[80px] relative">
+    <div className="h-[56px] w-[80px] relative select-none">
       <img
         className="absolute inset-0 h-[56px] w-[80px] hover:cursor-pointer opacity-100 dark:opacity-0"
         src={logoDark}

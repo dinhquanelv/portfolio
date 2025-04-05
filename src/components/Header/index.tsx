@@ -15,7 +15,7 @@ const Header = () => {
           <FiMenu size={24} />
         </button>
         <Logo />
-        <div className="sm:flex hidden flex-row">
+        <div className="sm:flex hidden flex-row select-none">
           <button className="btn">About Me</button>
           <button className="btn">Skills</button>
           <button className="btn">Projects</button>
