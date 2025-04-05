@@ -1,8 +1,7 @@
 import { JSX } from 'react';
-import './App.css';
 
 function App(): JSX.Element {
-  return <>wassup</>;
+  return <h1 className="text-center p-5">portfolio</h1>;
 }
 
 export default App;
