@@ -22,8 +22,6 @@ export default defineConfig([
       'no-undef': 'warn',
       'react/react-in-jsx-scope': 'off',
       '@typescript-eslint/no-explicit-any': 'warn',
-      '@typescript-eslint/explicit-function-return-type': 'warn',
-      '@typescript-eslint/explicit-module-boundary-types': 'warn',
     },
   },
   tseslint.configs.recommended,
