@@ -1,6 +1,5 @@
-import { FiMenu } from 'react-icons/fi';
-
 import Logo from './Logo';
+import Menu from './Menu';
 import ToggleButton from './ToggleButton';
 
 const Header = () => {
@@ -11,12 +10,12 @@ const Header = () => {
       border-lightBorder dark:border-darkBorder"
     >
       <div className="flex flex-row items-center justify-between max-w-[1440px] m-auto px-4">
-        <button className="sm:hidden block">
-          <FiMenu size={24} />
-        </button>
+        <div className="sm:hidden block">
+          <Menu />
+        </div>
         <Logo />
         <div className="sm:flex hidden flex-row select-none">
-          <button className="btn">About Me</button>
+          <button className="btn">About me</button>
           <button className="btn">Skills</button>
           <button className="btn">Projects</button>
           <button className="btn">Contact</button>
