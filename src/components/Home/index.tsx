@@ -1,7 +1,13 @@
 import Title from '@/components/Title';
 
+import { Element } from 'react-scroll';
+
 const Home = () => {
-  return <Title title="portfolio" description="VO NGUYEN DINH QUAN" />;
+  return (
+    <Element name="home">
+      <Title title="portfolio" description="VO NGUYEN DINH QUAN" />
+    </Element>
+  );
 };
 
 export default Home;

@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 import Logo from './Logo';
 import Menu from './Menu';
 import ToggleButton from './ToggleButton';
@@ -13,12 +15,22 @@ const Header = () => {
         <div className="sm:hidden block">
           <Menu />
         </div>
-        <Logo />
+        <Link to="home" smooth={true} duration={500}>
+          <Logo />
+        </Link>
         <div className="sm:flex hidden flex-row select-none">
-          <button className="btn">About me</button>
-          <button className="btn">Skills</button>
-          <button className="btn">Projects</button>
-          <button className="btn">Contact</button>
+          <Link to="about-me" smooth={true} duration={500}>
+            <button className="btn">About me</button>
+          </Link>
+          <Link to="skills" smooth={true} duration={500}>
+            <button className="btn">Skills</button>
+          </Link>
+          <Link to="projects" smooth={true} duration={500}>
+            <button className="btn">Projects</button>
+          </Link>
+          <Link to="contact" smooth={true} duration={500}>
+            <button className="btn">Contact</button>
+          </Link>
         </div>
         <ToggleButton />
       </div>
