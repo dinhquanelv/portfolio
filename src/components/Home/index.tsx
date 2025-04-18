@@ -5,7 +5,9 @@ import { Element } from 'react-scroll';
 const Home = () => {
   return (
     <Element name="home">
-      <Title title="portfolio" description="VO NGUYEN DINH QUAN" />
+      <div className="py-24">
+        <Title title="portfolio" description="VO NGUYEN DINH QUAN" />
+      </div>
     </Element>
   );
 };

@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="m-auto flex max-w-[1440px] flex-col items-center justify-center px-16">
       <Header />
-      <main className="mt-[56px]">
+      <main className="mt-[56px] w-[1440px]">
         <Home />
         <AboutMe />
         <Skills />
