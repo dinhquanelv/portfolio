@@ -18,7 +18,7 @@ const AboutMe = () => {
           <img
             src={avatar}
             alt="avatar"
-            className="rounded-3xl w-[252px] h-[336px] xl:w-[336px] xl:h-[448px] 2xl:w-[420px] 2xl:h-[560px]"
+            className="rounded-3xl w-[252px] h-[378px] lg:w-[336px] lg:h-[448px] xl:w-[420px] xl:h-[560px] object-cover"
           />
         </div>
         <div className="col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 p-4 lg:p-8">
