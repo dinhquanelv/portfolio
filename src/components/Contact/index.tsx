@@ -13,11 +13,11 @@ const Contact = () => {
   return (
     <Element name="contact">
       <Title title="interested?" description="DON'T FORGET TO CONTACT ME" />
-      <div className="flex flex-row justify-center -mt-72">
+      <div className="flex flex-col md:flex-row justify-center -mt-72">
         <a
           href="tel:+840388837803"
-          className="flex flex-row items-center p-4 m-4 border border-primaryColor rounded-full
-        hover:bg-primaryColor hover:text-whiteText"
+          className="flex flex-row justify-center items-center p-4 m-4 border border-primaryColor rounded-full
+        hover:bg-primaryColor hover:text-whiteText transition-all duration-300"
         >
           <ThemeIcon light={phoneLM} dark={phoneDM} alt="phone" />
           <span className="ml-2">Call me here</span>
@@ -26,16 +26,16 @@ const Contact = () => {
           href="https://www.linkedin.com/in/dinhquanelv"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-row items-center p-4 m-4 border border-primaryColor rounded-full
-        hover:bg-primaryColor hover:text-whiteText"
+          className="flex flex-row justify-center items-center p-4 m-4 border border-primaryColor rounded-full
+        hover:bg-primaryColor hover:text-whiteText transition-all duration-300"
         >
           <ThemeIcon light={linkedinLM} dark={linkedinDM} alt="phone" />
           <span className="ml-2">Contact me here</span>
         </a>
         <a
           href="mailto:quanvonguyendinh@gmail.com"
-          className="flex flex-row items-center p-4 m-4 border border-primaryColor rounded-full
-        hover:bg-primaryColor hover:text-whiteText"
+          className="flex flex-row justify-center items-center p-4 m-4 border border-primaryColor rounded-full
+        hover:bg-primaryColor hover:text-whiteText transition-all duration-300"
         >
           <ThemeIcon light={emailLM} dark={emailDM} alt="email" />
           <span className="ml-2">Email me here</span>
