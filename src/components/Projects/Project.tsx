@@ -18,14 +18,15 @@ const Project = ({ title, link, description, thumbnail }: ProjectProps) => {
       text-whiteText bg-[#002f5f] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
       >
         <p className="text-center text-lg font-medium">{description}</p>
-        <button
-          className="w-36 h-12 p-2 border border-primaryColor rounded-full outline-none 
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex justify-center items-center w-36 h-12 p-2 border border-primaryColor rounded-full outline-none 
         font-semibold hover:bg-primaryColor transition-colors duration-300"
         >
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            {title}
-          </a>
-        </button>
+          {title}
+        </a>
       </div>
     </div>
   );
