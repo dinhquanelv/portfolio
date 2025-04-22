@@ -16,7 +16,7 @@ const Skill = ({ lightIcon, darkIcon, title, skills }: SkillProps) => {
           <img src={darkIcon} alt="skill" className="w-10 h-10" />
         </div>
       </div>
-      <h3 className="text-lg font-bold mb-6">{title}</h3>
+      <h3 className="text-xl font-bold mb-6">{title}</h3>
       <div>
         {skills.map((skill) => (
           <p key={skill} className="text-center mb-4">

@@ -19,8 +19,8 @@ const Project = ({ title, link, description, thumbnail }: ProjectProps) => {
       >
         <p className="text-center text-lg font-medium">{description}</p>
         <button
-          className="w-36 h-12 p-2 border border-btnHover rounded-full outline-none 
-        font-semibold hover:bg-btnHover transition-colors duration-300"
+          className="w-36 h-12 p-2 border border-primaryColor rounded-full outline-none 
+        font-semibold hover:bg-primaryColor transition-colors duration-300"
         >
           <a href={link} target="_blank" rel="noopener noreferrer">
             {title}

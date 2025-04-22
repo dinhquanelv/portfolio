@@ -24,7 +24,7 @@ body {
 }
 
 .btn:hover {
-  @apply cursor-pointer text-btnHover  transition-colors duration-300 ease-in-out;
+  @apply cursor-pointer text-primaryColor transition-colors duration-300 ease-in-out;
 }
 
 /* scroll bar */
