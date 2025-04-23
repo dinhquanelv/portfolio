@@ -2,7 +2,7 @@ import { Element } from 'react-scroll';
 
 import About from './About';
 import ThemeIcon from './ThemeIcon';
-import avatar from '@/assets/cv_avatar_3x4.png';
+import avatar from '@/assets/avatar.webp';
 import phoneLM from '@/assets/phoneLM.png';
 import phoneDM from '@/assets/phoneDM.png';
 import emailLM from '@/assets/emailLM.png';

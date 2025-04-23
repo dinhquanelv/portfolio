@@ -21,7 +21,7 @@ const Skills = () => {
 
   const beSkill: string[] = [
     'NodeJS (ExpressJS/NestJS)',
-    'Python (Django)',
+    'Python (Django/Flask)',
     'JAVA (Spring Boot)',
     'Database (SQL/noSQL)',
     'Authentication & Authorization',
