@@ -12,7 +12,7 @@ const Header = () => {
       border-lightBorder dark:border-darkBorder"
     >
       <div className="flex flex-row items-center justify-between max-w-[1440px] m-auto px-4">
-        <div className="sm:hidden block">
+        <div className="sm:hidden block ">
           <Menu />
         </div>
         <Link to="home" smooth={true} duration={500}>
