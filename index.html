@@ -4,25 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Dinh Quan ELV - Fullstack Developer specializing in HTML, CSS, JavaScript, ReactJS, NextJS, NodeJS, ExpressJS, NestJS, Python"
+    />
+    <meta name="author" content="Dinh Quan ELV" />
     <title>portfolio</title>
     <link rel="stylesheet" href="/src/index.css" />
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      (function () {
-        const theme = localStorage.getItem('theme');
-        const system =
-          !('theme' in localStorage) &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-        if (theme === 'dark' || system) {
-          document.documentElement.classList.add('dark');
-        } else {
-          document.documentElement.classList.remove('dark');
-        }
-      })();
-    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

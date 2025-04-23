@@ -12,6 +12,7 @@ const Project = ({ title, link, description, thumbnail }: ProjectProps) => {
         src={thumbnail}
         alt="thumbnail"
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        loading="lazy"
       />
       <div
         className="absolute inset-0 flex flex-col justify-between items-center p-4 xl:p-8

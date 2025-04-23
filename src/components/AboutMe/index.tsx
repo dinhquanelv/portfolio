@@ -19,6 +19,7 @@ const AboutMe = () => {
             src={avatar}
             alt="avatar"
             className="rounded-3xl w-[252px] h-[378px] lg:w-[336px] lg:h-[448px] xl:w-[420px] xl:h-[560px] object-cover"
+            loading="lazy"
           />
         </div>
         <div className="col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 p-4 lg:p-8">

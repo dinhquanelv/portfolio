@@ -10,6 +10,7 @@ const ToggleButton = () => {
       className="relative w-12 h-6 rounded-full bg-gray-300 dark:bg-gray-700
         flex items-center p-1 border-none outline-none"
       onClick={handleToggleTheme}
+      aria-label="toggle"
     >
       <div
         className={`absolute left-1 flex items-center justify-center
