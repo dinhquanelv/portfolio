@@ -14,7 +14,7 @@ const Menu = () => {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger>
+      <SheetTrigger aria-label="menu">
         <FiMenu size={24} />
       </SheetTrigger>
       <SheetContent side="left">
@@ -25,17 +25,41 @@ const Menu = () => {
             </Link>
           </SheetTitle>
           <div className="flex flex-col">
-            <Link to="about-me" smooth={true} duration={500} onClick={handleLinkClick}>
-              <div className="flex justify-start w-full p-4 border-b hover:cursor-pointer">About Me</div>
+            <Link
+              to="about-me"
+              smooth={true}
+              duration={500}
+              onClick={handleLinkClick}
+              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
+            >
+              About Me
             </Link>
-            <Link to="skills" smooth={true} duration={500} onClick={handleLinkClick}>
-              <div className="flex justify-start w-full p-4 border-b hover:cursor-pointer">Skills</div>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={500}
+              onClick={handleLinkClick}
+              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
+            >
+              Skills
             </Link>
-            <Link to="projects" smooth={true} duration={500} onClick={handleLinkClick}>
-              <div className="flex justify-start w-full p-4 border-b hover:cursor-pointer">Projects</div>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              onClick={handleLinkClick}
+              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
+            >
+              Projects
             </Link>
-            <Link to="contact" smooth={true} duration={500} onClick={handleLinkClick}>
-              <div className="flex justify-start w-full p-4 border-b hover:cursor-pointer">Contact</div>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              onClick={handleLinkClick}
+              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
+            >
+              Contact
             </Link>
           </div>
         </SheetHeader>
