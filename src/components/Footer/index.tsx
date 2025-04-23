@@ -15,7 +15,7 @@ const Footer = () => {
         <SocialIcon icon={linkedin} link="https://www.linkedin.com/in/dinhquanelv/" />
         <SocialIcon icon={youtube} link="https://www.youtube.com/@DinhQuanELV" />
       </div>
-      <p className="text-center text-whiteText">Copyright © 2025 Dinh Quan ELV. All rights reserved</p>
+      <p className="text-center text-sm text-whiteText">Copyright © 2025 Dinh Quan ELV. All rights reserved</p>
     </div>
   );
 };
