@@ -25,40 +25,16 @@ const Menu = () => {
             </Link>
           </SheetTitle>
           <div className="flex flex-col">
-            <Link
-              to="about-me"
-              smooth={true}
-              duration={500}
-              onClick={handleLinkClick}
-              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
-            >
+            <Link to="about-me" smooth={true} duration={500} onClick={handleLinkClick} className="btn-menu">
               About Me
             </Link>
-            <Link
-              to="skills"
-              smooth={true}
-              duration={500}
-              onClick={handleLinkClick}
-              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
-            >
+            <Link to="skills" smooth={true} duration={500} onClick={handleLinkClick} className="btn-menu">
               Skills
             </Link>
-            <Link
-              to="projects"
-              smooth={true}
-              duration={500}
-              onClick={handleLinkClick}
-              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
-            >
+            <Link to="projects" smooth={true} duration={500} onClick={handleLinkClick} className="btn-menu">
               Projects
             </Link>
-            <Link
-              to="contact"
-              smooth={true}
-              duration={500}
-              onClick={handleLinkClick}
-              className="flex justify-start w-full p-4 border-b hover:cursor-pointer"
-            >
+            <Link to="contact" smooth={true} duration={500} onClick={handleLinkClick} className="btn-menu">
               Contact
             </Link>
           </div>
