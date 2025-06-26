@@ -12,7 +12,7 @@ import IEEE754Thumbnail from '@/assets/IEEE754-thumbnail.webp';
 const Projects = () => {
   return (
     <Element name="projects">
-      <Title title="projects" description="SOME PROJECTS I MADE" />
+      <Title id="projects" title="projects" description="SOME PROJECTS I MADE" />
       <div className="flex flex-wrap justify-center gap-6">
         <Project
           title="Coming Soon ..."

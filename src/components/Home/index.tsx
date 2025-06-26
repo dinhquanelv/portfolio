@@ -5,7 +5,7 @@ import { Element } from 'react-scroll';
 const Home = () => {
   return (
     <Element name="home">
-      <Title title="portfolio" description="WELCOME TO MY WEBSITE" />
+      <Title id="home" title="portfolio" description="WELCOME TO MY WEBSITE" />
     </Element>
   );
 };

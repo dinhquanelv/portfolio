@@ -32,7 +32,7 @@ const Skills = () => {
 
   return (
     <Element name="skills">
-      <Title title="skills" description="ALL TECHNOLOGIES I USE" />
+      <Title id="skills" title="skills" description="ALL TECHNOLOGIES I USE" />
       <div className="flex flex-col md:flex-row justify-between items-center">
         <Skill lightIcon={feWhite} darkIcon={feBlack} title="Front-end" skills={feSkill} />
         <Skill lightIcon={beWhite} darkIcon={beBlack} title="Back-end" skills={beSkill} />

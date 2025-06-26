@@ -12,7 +12,7 @@ import linkedinDM from '@/assets/linkedinDM.png';
 const Contact = () => {
   return (
     <Element name="contact">
-      <Title title="interested" description="DON'T FORGET TO CONTACT ME" />
+      <Title id="contact" title="interested" description="DON'T FORGET TO CONTACT ME" />
       <div className="flex flex-col md:flex-row justify-center -mt-72">
         <a
           href="tel:+840388837803"

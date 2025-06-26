@@ -3,12 +3,12 @@ const About = () => {
     <>
       <h3 className="text-4xl md:text-5xl font-bold mb-4 lg:mb-8">hello!</h3>
       <p className="text-justify mb-4 lg:mb-8">
-        I’m Vo Nguyen Dinh Quan or Viktor, a Software Engineer with a passion for Front-end, Back-end, and UI/UX Design.
+        I’m Vo Nguyen Dinh Quan, also know as Dinh Quan ELV or simply Viktor, a Full-stack Developer.
       </p>
       <p className="text-justify mb-8 lg:mb-16">
-        I’m passionate about building scalable and efficient web applications, constantly exploring new technologies to
-        improve performance and user experience. I'm always eager to learn, collaborate, and contribute to projects that
-        push the boundaries of web development.
+        As a fullstack developer, I build scalable, high-performance web applications with a strong focus on usability
+        and technical reliability. I'm committed to continuous learning, open collaboration, and delivering solutions
+        that meet real business needs.
       </p>
       <h4 className="text-3xl md:text-4xl font-semibold mb-4 lg:mb-8">career orientation.</h4>
       <p className="text-justify mb-4 lg:mb-8">
