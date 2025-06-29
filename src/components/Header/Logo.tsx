@@ -1,5 +1,5 @@
-import logoDark from '@/assets/dqelv-logo-dark.png';
-import logoLight from '@/assets/dqelv-logo-light.png';
+import logoDark from '@/assets/logo/dqelv-logo-dark.png';
+import logoLight from '@/assets/logo/dqelv-logo-light.png';
 
 const Logo = () => {
   return (

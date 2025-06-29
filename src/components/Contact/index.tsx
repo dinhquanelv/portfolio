@@ -2,12 +2,12 @@ import { Element } from 'react-scroll';
 
 import Title from '@/components/Title';
 import ThemeIcon from '@/components/AboutMe/ThemeIcon';
-import phoneLM from '@/assets/phoneLM.png';
-import phoneDM from '@/assets/phoneDM.png';
-import emailLM from '@/assets/emailLM.png';
-import emailDM from '@/assets/emailDM.png';
-import linkedinLM from '@/assets/linkedinLM.png';
-import linkedinDM from '@/assets/linkedinDM.png';
+import phoneLM from '@/assets/icons/phoneLM.png';
+import phoneDM from '@/assets/icons/phoneDM.png';
+import emailLM from '@/assets/icons/emailLM.png';
+import emailDM from '@/assets/icons/emailDM.png';
+import linkedinLM from '@/assets/icons/linkedinLM.png';
+import linkedinDM from '@/assets/icons/linkedinDM.png';
 
 const Contact = () => {
   return (

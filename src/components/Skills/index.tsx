@@ -2,33 +2,33 @@ import { Element } from 'react-scroll';
 
 import Skill from './Skill';
 import Title from '@/components/Title';
-import feWhite from '@/assets/frontendWhite.png';
-import feBlack from '@/assets/frontendBlack.png';
-import beWhite from '@/assets/backendWhite.png';
-import beBlack from '@/assets/backendBlack.png';
-import toolsWhite from '@/assets/toolsWhite.png';
-import toolsBlack from '@/assets/toolsBlack.png';
+import feWhite from '@/assets/icons/frontendWhite.png';
+import feBlack from '@/assets/icons/frontendBlack.png';
+import beWhite from '@/assets/icons/backendWhite.png';
+import beBlack from '@/assets/icons/backendBlack.png';
+import toolsWhite from '@/assets/icons/toolsWhite.png';
+import toolsBlack from '@/assets/icons/toolsBlack.png';
 
 const Skills = () => {
   const feSkill: string[] = [
-    'HTML',
-    'CSS (SASS/SCSS)',
+    'HTML / CSS',
     'JavaScript (TypeScript)',
     'ReactJS/Redux',
     'NextJS',
     'Tailwind/Bootstrap',
+    'Figma',
   ];
 
   const beSkill: string[] = [
     'NodeJS (ExpressJS/NestJS)',
-    'Python (Django/Flask)',
+    'Python (FastAPI)',
     'JAVA (Spring Boot)',
+    'C# (DotNET)',
     'Database (SQL/noSQL)',
-    'Authentication & Authorization',
     'WebSocket (Socket.io)',
   ];
 
-  const tools: string[] = ['Git (Github)', 'Docker', 'Figma', 'Draw.io', 'Adobe Photoshop', 'Adobe Premiere'];
+  const tools: string[] = ['Git (Github)', 'Docker', 'Cloud (AWS, Azure)', 'Agile Scrum,', 'Jira', 'Trello'];
 
   return (
     <Element name="skills">

@@ -2,12 +2,12 @@ import { Element } from 'react-scroll';
 
 import Project from './Project';
 import Title from '@/components/Title';
-import socialNetworkThumbnail from '@/assets/social-network-thumbnail.webp';
-import eCommerceThumbnail from '@/assets/e-commerce-thumbnail.webp';
-import SMGThumbnail from '@/assets/sgm-thumbnail.webp';
-import flappyPigThumbnail from '@/assets/flappy-pig-thumbnail.webp';
-import employeeManagerThumbnail from '@/assets/employee-manager-thumbnail.webp';
-import IEEE754Thumbnail from '@/assets/IEEE754-thumbnail.webp';
+import eBixelThumbnail from '@/assets/projects/E-Bixel.webp';
+import axoliteThumbnail from '@/assets/projects/axolite.webp';
+import congdanhvlxdThumbnail from '@/assets/projects/congdanhvlxd.webp';
+import flashvnThumbnail from '@/assets/projects/flashvn.webp';
+import socialNetworkThumbnail from '@/assets/projects/social-network-thumbnail.webp';
+import SMGThumbnail from '@/assets/projects/sgm-thumbnail.webp';
 
 const Projects = () => {
   return (
@@ -16,9 +16,27 @@ const Projects = () => {
       <div className="flex flex-wrap justify-center gap-6">
         <Project
           title="Coming Soon ..."
+          link="https://ebixel.com"
+          description="Product Image editing service website"
+          thumbnail={eBixelThumbnail}
+        />
+        <Project
+          title="Coming Soon ..."
+          link="https://congdanhvlxd.com"
+          description="Product gallery website"
+          thumbnail={congdanhvlxdThumbnail}
+        />
+        <Project
+          title="Coming Soon ..."
+          link="https://axolite.site"
+          description="Chat app website"
+          thumbnail={axoliteThumbnail}
+        />
+        <Project
+          title="Private Repo!"
           link=""
-          description="E-Commerce platform built with NextJS, NestJS, MySQL and Recommendation Systems"
-          thumbnail={eCommerceThumbnail}
+          description="Building Digital-ready Community"
+          thumbnail={flashvnThumbnail}
         />
         <Project
           title="View Code >"
@@ -31,24 +49,6 @@ const Projects = () => {
           link="https://github.com/DinhQuanELV/StudentGradeManagement"
           description="Student Grade Management platform built with HTML, CSS, PHP, MySQL"
           thumbnail={SMGThumbnail}
-        />
-        <Project
-          title="Play Game >"
-          link="https://dinhquanelv.github.io/FlappyPigMobile/"
-          description="Flappy Pig game on Mobile web built with HTML, CSS, JavaScript"
-          thumbnail={flappyPigThumbnail}
-        />
-        <Project
-          title="View Code >"
-          link="https://github.com/DinhQuanELV/EmployeeManage"
-          description="Employee manage console application build with C++"
-          thumbnail={employeeManagerThumbnail}
-        />
-        <Project
-          title="View Code >"
-          link="https://github.com/DinhQuanELV/IEEE754"
-          description="IEEE 754 Floating Point Converter built with C++"
-          thumbnail={IEEE754Thumbnail}
         />
       </div>
     </Element>
